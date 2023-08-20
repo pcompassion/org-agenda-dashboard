@@ -5,6 +5,7 @@ This is a fork of Nicolas Rougier's [[https://github.com/rougier/mu4e-dashboard]
 ideas and implementation to provide an org link type to search queries in org agenda.
 These agenda searches can be openend by clicking the link. These links can be organised in
 a simple org file as in the left side window in the following image:
+tt!
 
 #+DOWNLOADED: file:/Users/folgert/Desktop/dashboard.png @ 2023-01-20 09:17:52
 [[file:Org_Agenda_Dashboard/2023-01-20_09-17-52_dashboard.png]]
@@ -40,7 +41,7 @@ Similarly, the following query searches for all TODO entries with the tag =writi
 #+end_src
 
 Note that here we don't specify the agenda file, in which case all agenda files are
-searched. 
+searched.
 
 =format= can be used to specify that =query= results are to be counted in
 order to update the descritption using the given format:
@@ -65,4 +66,3 @@ To activate the dashboard, type =org-agenda-dashboard-mode=. This will turn on
 the current buffer.
 
 To edit the org file, you'll need to turn off =org-agenda-dashboard-mode=.
-
